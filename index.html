@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<header>
+		<div class="row">
+			<div class="logo">Logo</div>
+			<div class="serch">
+				<form>
+					<div class="inputDiv">
+						<input type="text" name="serch-input" placeholder="Поиск">
+						<i class="fas fa-search"></i>
+					</div>
+				</form>
+			</div>
+			<div class="relPos">
+				<div class="userIcon">
+<!-- 					<div class="avtorization-hide icon">
+						<a class="log-in-button" href="#">Вход</a>
+						<a class="log-up-button" href="#">Регистрация</a>
+					</div>
+					<i class="fas fa-user"></i> -->
+					<div class="avtorization-hide avatar">
+						<a class="log-in-button" href="#">Выход</a>
+					</div>
+					<img src="img/black-girl.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="main-block">
+		<div class="row">
+			<div class="nav">
+				<div class="nav-block">
+					<h2 class="title-text">Фильмы</h2>
+				</div>
+				<div class="nav-block">
+					<h2 class="title-text">Сериалы</h2>
+				</div>
+				<div class="nav-block">
+					<h2 class="title-text">Люди</h2>
+				</div>
+				<div class="nav-block">
+					<h2 class="title-text">Рейтенги</h2>
+				</div>
+			</div>
+			<div class="sidebar">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur officiis ut rem minus. Odio quae quos velit assumenda voluptatem perspiciatis nihil quia fugit porro ullam sunt, dolorum dolore similique in!
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="row">
+			<small>Copyright © <time datetime="2018">2018</time> FormaTV.com.ua</small>
+		</div>
+	</footer>
+	<div class="modal in">
+		<div class="log-in">
+			<i class="exit fas fa-times exit-icon"></i>
+			<div class="userIcon">
+				<i class="fas fa-user"></i>
+			</div>
+			<form action="">
+				<div class="inputDiv">
+					<input type="text" name="email-input" placeholder="Email">
+					<i class="far fa-envelope"></i>
+				</div>
+				<div class="inputDiv">
+					<input type="password" name="password-input" placeholder="Password">
+					<i class="fas fa-lock"></i>
+				</div>
+				<p>
+					<button class="btn-log">Log in</button>
+				</p>
+			</form>	
+		</div>
+	</div>
+	<div class="modal up">
+		<div class="log-up">
+			<i class="exit fas fa-times exit-icon"></i>
+			<div class="userIcon">
+				<i class="fas fa-user"></i>
+			</div>
+			<form action="">
+				<div class="inputDiv">
+					<input type="text" name="email-input" placeholder="Email">
+					<i class="far fa-envelope"></i>
+				</div>
+				<div class="inputDiv">
+					<input type="password" name="password-input" placeholder="Password">
+					<i class="fas fa-lock"></i>
+				</div>
+				<div class="inputDiv">
+					<input type="password" name="password-repeat-input" placeholder="repeat Password">
+					<i class="fas fa-lock"></i>
+				</div>
+				<div class="inputDiv">
+					<input type="text" name="name-input" placeholder="Name">
+					<i class="far fa-envelope"></i>
+				</div>
+				<div class="inputDiv">
+					<input type="date" name="name-input" placeholder="Name">
+					<i class="fas fa-birthday-cake"></i>
+				</div>
+				<div class="inputDiv">
+				    <div class="file_upload">
+        				<button type="button">Выбрать</button>
+        				<div>Файл не выбран</div>
+        				<input type="file" accept="image/*,image/jpeg,image/png">
+    				</div>
+				    <i class="fas fa-user-circle"></i>
+				</div>
+
+				<p>
+					<button class="btn-log">Log up</button>
+				</p>
+			</form>	
+		</div>
+	</div>
+</body>
+</html>
