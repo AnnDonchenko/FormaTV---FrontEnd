@@ -25,11 +25,9 @@ a{
 }
 .inputDiv{
 	position: relative;
-	input[type=text], input[type=password], input[type=date]{
+	input{
 		box-sizing: border-box;
-		padding: 5px 5px 5px 25px;
 		margin: 10px;
-		width: 240px;
 		border: 1px solid @input-color;
 		border-radius: 3px;
 		color: @input-color;
@@ -49,6 +47,12 @@ a{
 				border: 1px solid @active-color;
 		}
 	}
+	input[type=text], input[type=password]{
+		padding: 5px 5px 5px 25px;
+	}
+	input[type=date]{
+		padding: 3px 5px 3px 25px;
+	}
 	i{
 		position: absolute;
 		color: @input-color;
@@ -56,6 +60,12 @@ a{
 		top: 15px;
 	}
 }/*поле ввода текста с иконкой */
+.search input{
+	width: 100%;
+}
+.modal input{
+	width: 240px;
+}
 .inputDivLabel i{
 	top: 7px;
 }
@@ -164,6 +174,9 @@ header{
 			}
 		}
 	}
+}
+.logo img{
+	height: 55px;
 }		
 .main-block{
 	display: grid;

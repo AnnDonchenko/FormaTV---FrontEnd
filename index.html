@@ -11,22 +11,28 @@
 <body>
 	<header>
 		<div class="row">
-			<div class="logo">Logo</div>
-			<div class="serch">
+			<div class="logo">
+				<a href="#"><img src="img/logo.png" alt="Логотип FormaTV"></a>
+			</div>
+			<!--блок поиска-->
+			<div class="search">
 				<form>
 					<div class="inputDiv">
-						<input type="text" name="serch-input" placeholder="Поиск">
+						<input type="text" name="search-input" placeholder="Поиск">
 						<i class="fas fa-search"></i>
 					</div>
 				</form>
 			</div>
+			<!--блок входа пользователя-->
 			<div class="relPos">
 				<div class="userIcon">
-<!-- 					<div class="avtorization-hide icon">
+					<!--не залогинено-->
+ 					<div class="avtorization-hide icon">
 						<a class="log-in-button" href="#">Вход</a>
 						<a class="log-up-button" href="#">Регистрация</a>
 					</div>
-					<i class="fas fa-user"></i> -->
+					<i class="fas fa-user"></i>
+					<!--залогинено-->
 					<div class="avtorization-hide avatar">
 						<a class="log-in-button" href="#">Выход</a>
 					</div>
@@ -35,8 +41,8 @@
 			</div>
 		</div>
 	</header>
-	<div class="main-block">
-		<div class="row">
+	<div class="row">
+		<div class="main-block">
 			<div class="nav">
 				<div class="nav-block">
 					<h2 class="title-text">Фильмы</h2>
@@ -61,6 +67,7 @@
 			<small>Copyright © <time datetime="2018">2018</time> FormaTV.com.ua</small>
 		</div>
 	</footer>
+	<!--форма входа-->
 	<div class="modal in">
 		<div class="log-in">
 			<i class="exit fas fa-times exit-icon"></i>
@@ -82,6 +89,7 @@
 			</form>	
 		</div>
 	</div>
+	<!--форма регистрации-->
 	<div class="modal up">
 		<div class="log-up">
 			<i class="exit fas fa-times exit-icon"></i>
